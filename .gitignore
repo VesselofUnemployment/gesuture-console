@@ -1,0 +1,35 @@
+# Private runtime data, identities and local history
+/data/
+/backups/
+/captures/
+/.local/
+
+# Installed runtime and downloaded models
+/.venv/
+/models/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Temporary work and credentials
+/.work-*/
+/.env
+/.env.*
+!/.env.example
+*.private.*
+*.download
+*.tmp
+
+# Preview assets may include personal/third-party reference material; review before sharing
+/previews/
+
+# Keep local runtime files out of Git even if moved outside data/.
+*.npz
+*.sqlite3
+*.sqlite3-*
+*.onnx
+*.task
+access_codes.json
+app_shortcuts.json
+gesture_shortcuts.json
+session_shortcuts.json
