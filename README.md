@@ -1,4 +1,4 @@
-# Vision Control
+# Gesture Control
 
 A local Windows prototype for face recognition, role-based hand gestures, and desktop control. It uses pretrained OpenCV and MediaPipe models.
 
